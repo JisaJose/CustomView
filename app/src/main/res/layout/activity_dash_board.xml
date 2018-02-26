@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.customview.DashBoardActivity">
+
+   <com.example.customview.view.CustomView
+       android:id="@+id/customView"
+       android:layout_width="match_parent"
+       android:layout_height="400dp"
+       app:square_color="@color/squareColor"
+       app:square_size="100dp"/>
+
+   <Button
+       android:id="@+id/customViewButton"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true"
+       android:layout_marginLeft="13dp"
+       android:layout_marginStart="13dp"
+       android:text="Change color" />
+
+</RelativeLayout>
